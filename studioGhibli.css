@@ -1,0 +1,247 @@
+.wrapper{
+  display: block;
+  box-sizing: border-box;
+  background: url(https://i.imgur.com/Pbx1VEh.jpg)
+  
+}
+
+.container{
+  height: 150px;
+  width: 371px;
+  padding: 0 3% 0 3%;
+  background-image:  url("cinema-background-footage-024725417_prevstill.jpeg");
+  background-size: 150%;
+  background-position-y: 20%;
+  background-color: rgba(112, 112, 226, 0.795);
+}
+
+h1{
+  font-size: 36px;
+  margin-top: 0;
+  color: white;
+  text-shadow: 2px 1px 5px #00000088;
+}
+
+h2{
+  font-size: 36px;
+  height: 80px;
+  padding: 0 3% 0 3%;
+  background-color: rgba(112, 112, 226, 0.795);
+  margin-top: 0;
+  color: white;
+  text-shadow: 2px 1px 5px #00000088;
+}
+
+h3{
+  padding: 0 3% 0 3%;
+}
+
+h4{
+  font-size: 42px;
+  height: 125px;
+  padding: 0 3% 0 3%;
+  background-image:url(http://wwwcdn.impact-books.com/wp-content/uploads/w9fNuEX.jpg);
+  background-size: 150%;
+  background-position-y: 20%;
+  background-color: rgba(112, 112, 226, 0.795);
+  margin-top: 0;
+  color: white;
+  text-shadow: 2px 2px 3px #00000088;
+}
+
+h5{
+  font-size: 32px;
+  color: white;
+  text-shadow: 2px 1px 5px #00000088;
+  position: relative;
+  float: right;
+  z-index: 2px;
+  left: 50px;
+  top: 45px;
+
+}
+
+p{
+  padding: 0 3% 0 3%;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  z-index: 2px;
+  position: relative;
+  float: right;
+  top: 90px;
+  right: 80px;
+
+}
+
+
+
+.header{
+  width: 1500px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+}
+
+#root {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  
+  .card {
+    background: white;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border: 3px solid gray;
+    width: 400px;
+    height: 640px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .character{
+    background: white;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border: 3px solid gray;
+    width: 400px;
+    height: 350px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .locationCard {
+    background: linear-gradient(to bottom, rgb(110, 185, 114), rgb(44, 66, 26));
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border: 3px solid gray;
+    width: 400px;
+    height: 340px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .locationUL{
+    color: white;
+    font-size: 32px;
+  }
+
+.buttons{
+  position: relative;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+
+
+}
+
+  .filmsbutton{
+    margin-top: 5%;
+    margin-left:8%;
+    width: 300px;
+    background: #6fabd4;
+    background-image: linear-gradient(to bottom, #6fabd4, #38769c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 2px 1px 0px #000000;
+    -webkit-box-shadow: 2px 2px 6px #a8a8a8;
+    -moz-box-shadow: 2px 2px 6px #a8a8a8;
+    box-shadow: 2px 2px 6px #a8a8a8;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .filmsbutton:hover {
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .peoplebutton{
+    margin-left: 10%;
+    width: 300px;
+    background: #6fabd4;
+    background-image: linear-gradient(to bottom, #6fabd4, #38769c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 2px 1px 0px #000000;
+    -webkit-box-shadow: 2px 2px 6px #a8a8a8;
+    -moz-box-shadow: 2px 2px 6px #a8a8a8;
+    box-shadow: 2px 2px 6px #a8a8a8;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.peoplebutton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.speciesbutton{
+  margin-left:10%;
+  width: 300px;
+  background: #6fabd4;
+  background-image: -webkit-linear-gradient(top, #6fabd4, #38769c);
+  background-image: -moz-linear-gradient(top, #6fabd4, #38769c);
+  background-image: -ms-linear-gradient(top, #6fabd4, #38769c);
+  background-image: -o-linear-gradient(top, #6fabd4, #38769c);
+  background-image: linear-gradient(to bottom, #6fabd4, #38769c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 2px 1px 0px #000000;
+  -webkit-box-shadow: 2px 2px 6px #a8a8a8;
+  -moz-box-shadow: 2px 2px 6px #a8a8a8;
+  box-shadow: 2px 2px 6px #a8a8a8;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.speciesbutton:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.header{
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+}
